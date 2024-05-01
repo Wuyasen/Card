@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%; 
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+    padding: 100px 0 200px 400px;
+   
+}
+ .card{
+    width: 760px;
+    height: 560px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgb(82, 82, 82);
+    display: block;
+    position: relative;
+}
+
+#circle{
+    width: 50px;
+    height: 20px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    left: 23%;
+}
+
+ #up{
+    width: 90px;
+    height: 55px;
+    background-color:black;
+    font-family: Helvetica;
+    color: white;
+    position:absolute;
+    top:25%;
+    left:-73px;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    transform: rotate(-90deg);
+    box-shadow: -1px -1px 10px rgb(82, 82, 82);
+}
+
+#prev{
+    width: 55px;
+    height: 55px;
+    font-size: 30px; 
+    color: white;
+    background-color: black;
+    position: absolute; 
+    top:75%;
+    left:-55px;
+    box-shadow: -1px -1px 10px rgb(82, 82, 82);
+}
+#next{
+    width: 55px;
+    height: 55px;
+    font-size: 30px; 
+    color: white;
+    background-color: black;
+    position: absolute; 
+    top:65%;
+    left:-55px;
+    box-shadow: -1px -1px 10px rgb(82, 82, 82);
+}
+
+.image{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+.text{
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+} 
+.title{
+    width: 100%;
+    height: 35%;
+    padding: 80px 0 0 0;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: Helvetica;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    
+}
+#about{
+    width: 80%;
+    height: 60%;
+    padding: 0;
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+    text-align: left;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    margin: 15px 30px 0 35px; 
+}
+
+.secure{
+    width: 80%;
+    height: 13%;
+    padding: 0 ;
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+    text-align: left;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    margin: 25px 30px 0 35px; 
+    display: flex;
+    align-items: center; 
+}
+  
+.secure img{
+    margin: 0  ;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.secure p{
+    font-family: Helvetica;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+.color{
+    width: 80%;
+    height: 13%;
+    padding: 0 ;
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+    text-align: left;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    margin: 25px 30px 0 35px; 
+    
+}
+.color p{
+    margin: 0 0 10px 0;
+    font-family: Helvetica;
+}
+.color img{
+    width: 20px;
+    height: 20px;
+    margin: 0 9px 0 0;
+}
+
+.price{
+    width: 80%;
+    height: 13%;
+    padding: 0 ;
+    color: rgb(156, 156, 156);
+    text-align: left;
+    margin: 10px 30px 0 35px; 
+    font-family: Helvetica;
+    font-size: 13px;
+    display: flex;
+    align-items: center; 
+}
+.price p{
+    font-size: 25px;
+    margin: 0 20px 0 0;
+    
+}
+.price .btn{
+    width: 80px;
+    height: 20px;
+    color: white;
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
